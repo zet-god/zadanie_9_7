@@ -120,13 +120,13 @@ function setGamePoints() {
 }
 
 function checkPoints() {
-	if (computer.score == 3) {
+	if (computer.score == 10) {
 		//checkPoints();
 		alert('Computer won.');
 		gameState = 'ended';
 		setGameElements();
 	}
-	else if (player.score == 3) {
+	else if (player.score == 10) {
 		//checkPoints();
 		alert('You won!');
 		gameState = 'ended';
